@@ -6,28 +6,58 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618
 
-namespace TestMod;
+namespace Deadass;
 
-[BepInPlugin("com.author.testmod", "Test Mod", "0.1.0")]
+[BepInPlugin("com.dual.deadass", "Deadass", "1.0.0")]
 sealed class Plugin : BaseUnityPlugin
 {
-    bool init;
+    FAtlas atlas;
 
     public void OnEnable()
     {
-        // Add hooks here
-        On.RainWorld.OnModsInit += OnModsInit;
+        On.RainWorld.OnModsInit += Init;
+        On.PlayerGraphics.DrawSprites += PlayerGraphics_DrawSprites;
     }
 
-    private void OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
+    private void Init(On.RainWorld.orig_OnModsInit orig, RainWorld self)
     {
         orig(self);
 
-        if (init) return;
+        try {
+            atlas ??= Futile.atlasManager.LoadAtlas("sprites/NixFace");
 
-        init = true;
+            if (atlas == null) {
+                Logger.LogWarning("nixface atlas not found! Reinstall the mod.");
+            }
+        }
+        catch (System.Exception e) {
+            Logger.LogError("nixface atlas failed to load: " + e);
+        }
+    }
 
-        // Initialize assets, your mod config, and anything that uses RainWorld here
-        Logger.LogDebug("Hello world!");
+    private void PlayerGraphics_DrawSprites(On.PlayerGraphics.orig_DrawSprites orig, PlayerGraphics self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, float timeStacker, UnityEngine.Vector2 camPos)
+    {
+        orig(self, sLeaser, rCam, timeStacker, camPos);
+
+        if (atlas == null) {
+            return;
+        }
+
+        var sprite = sLeaser.sprites[9];
+        var name = sprite?.element?.name;
+        if (name != null) {
+            string blink = self.blink > 0 ? "B" : "";
+
+            if (!self.player.Consious && atlas._elementsByName.TryGetValue("NixFaceB0", out var element)) {
+                sprite.element = element;
+            }
+            else if (int.TryParse(name.Substring(name.Length - 1), out int spriteIndex) && atlas._elementsByName.TryGetValue($"NixFace{blink}{spriteIndex}", out var element2)) {
+                sprite.element = element2;
+
+                if (self.blink > 0) {
+                    sprite.y -= 1;
+                }
+            }
+        }
     }
 }

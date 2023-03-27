@@ -1,0 +1,447 @@
+{
+  "frames": {
+    "NixFace1.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace0.png": {
+      "frame": {
+        "x": 10,
+        "y": 0,
+        "w": 10,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 4,
+        "w": 10,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB7.png": {
+      "frame": {
+        "x": 20,
+        "y": 0,
+        "w": 10,
+        "h": 2
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 11,
+        "w": 10,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB0.png": {
+      "frame": {
+        "x": 30,
+        "y": 0,
+        "w": 10,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 10,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB8.png": {
+      "frame": {
+        "x": 40,
+        "y": 0,
+        "w": 10,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 12,
+        "w": 10,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB1.png": {
+      "frame": {
+        "x": 50,
+        "y": 0,
+        "w": 9,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 5,
+        "w": 9,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace2.png": {
+      "frame": {
+        "x": 30,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 4,
+        "w": 8,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace3.png": {
+      "frame": {
+        "x": 20,
+        "y": 4,
+        "w": 8,
+        "h": 6
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 6,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB4.png": {
+      "frame": {
+        "x": 20,
+        "y": 2,
+        "w": 7,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 7,
+        "w": 7,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace6.png": {
+      "frame": {
+        "x": 10,
+        "y": 5,
+        "w": 8,
+        "h": 6
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 9,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace7.png": {
+      "frame": {
+        "x": 0,
+        "y": 7,
+        "w": 8,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 9,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace8.png": {
+      "frame": {
+        "x": 38,
+        "y": 1,
+        "w": 8,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 10,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB6.png": {
+      "frame": {
+        "x": 59,
+        "y": 0,
+        "w": 8,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 8,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB5.png": {
+      "frame": {
+        "x": 46,
+        "y": 4,
+        "w": 8,
+        "h": 3
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 9,
+        "w": 8,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB2.png": {
+      "frame": {
+        "x": 38,
+        "y": 6,
+        "w": 7,
+        "h": 7
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 4,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace4.png": {
+      "frame": {
+        "x": 28,
+        "y": 9,
+        "w": 7,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 6,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFace5.png": {
+      "frame": {
+        "x": 28,
+        "y": 14,
+        "w": 7,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 8,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "NixFaceB3.png": {
+      "frame": {
+        "x": 18,
+        "y": 10,
+        "w": 7,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 7,
+        "w": 7,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 18
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "NixFace.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 67,
+      "h": 19
+    },
+    "scale": 1
+  }
+}
